@@ -9,7 +9,7 @@ namespace SortingAlgorithms
     class ArraySort
     {
 
-        //Сортировка выбором
+        // Selection sort
         public static void SelectionSort(int[] array)
         {
             for (int i = 0; i < array.Length - 1; i++)
@@ -27,7 +27,7 @@ namespace SortingAlgorithms
                 array[min] = temp;
             }
         }
-        //Сортировка вставками
+        // Insertion sort
         public static void InsertionSort(int[] array)
         {
             int newElement, location;
@@ -43,7 +43,7 @@ namespace SortingAlgorithms
                 array[location + 1] = newElement;
             }
         }
-        //Сортировка Шелла
+        // Shellsort
         public static void ShellSort(int[] array)
         {
             int step = array.Length / 2;
@@ -60,7 +60,7 @@ namespace SortingAlgorithms
                 step /= 2;
             }
         }
-        //Быстрая сортировка
+        // Quicksort
         public static void Quicksort(int[] array, int first, int last)
         {
             int p = array[(last - first) / 2 + first];
@@ -81,7 +81,7 @@ namespace SortingAlgorithms
             if (j > first) Quicksort(array, first, j);
             if (i < last) Quicksort(array, i, last);
         }
-        //Сортировка слиянием
+        // Merge sort
         public static void MergeSort(ref int[] arr, int left, int right)
         {
             if (left < right)
@@ -111,7 +111,7 @@ namespace SortingAlgorithms
                 Array.Copy(temp, 0, arr, oldPosition, size);
             }
         }
-        //Поразрядная сортировка
+        // RadixSort
         public static void RadixSort(int[] arr, int range, int length)
         {
             ArrayList[] lists = new ArrayList[range];
