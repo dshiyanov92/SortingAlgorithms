@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace SortingAlgorithms
 {
     class ArrayGenerator
     {
-        public enum Cases { Best, Average, Worst };
+        public enum Cases {Random, Best, Average, Worst };
         public int[] GenerateArray(int size, Cases fortuity)
         {
             int[] array = new int[size];
@@ -31,6 +32,8 @@ namespace SortingAlgorithms
                     array[array_middle] = n2.Next(0, (int)(2 * Math.Pow(10, 9)));
                     break;
                 case Cases.Worst:
+                    break;
+                case Cases.Random:
                     Random n3 = new Random();
                     for (int i = 0; i < array.Length; i++)
                     {
