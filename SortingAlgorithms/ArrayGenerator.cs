@@ -7,17 +7,18 @@ namespace SortingAlgorithms
 {
     class ArrayGenerator
     {
-        public enum Cases {Random, Best, Average, Worst };
+        public enum Cases { Random, Best, Average, Worst };
         public int[] GenerateArray(int size, Cases fortuity)
         {
             int[] array = new int[size];
 
-            switch (fortuity){
+            switch (fortuity)
+            {
                 case Cases.Best:
                     Random n = new Random();
                     for (int i = 0; i < array.Length; i++)
                     {
-                        array[i] = n.Next(0, (int)(2*Math.Pow(10,9)));
+                        array[i] = n.Next(0, (int)(2 * Math.Pow(10, 9)));
                     }
                     Array.Sort(array);
                     break;
@@ -44,7 +45,5 @@ namespace SortingAlgorithms
             }
             return array;
         }
-
-
     }
 }
