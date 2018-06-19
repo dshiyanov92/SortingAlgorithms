@@ -530,3 +530,123 @@ SortingAlgorithms.Algorithms.RadixSort
 Array length - 100000
 Sorting time, ms - 178,7912
 
+SortingAlgorithms.Algorithms.InsertionSort
+Array length - 100
+Sorting time, ms - 0,3297
+
+SortingAlgorithms.Algorithms.SelectionSort
+Array length - 100
+Sorting time, ms - 0,3553
+
+SortingAlgorithms.Algorithms.MergeSort
+Array length - 100
+Sorting time, ms - 1,4873
+
+SortingAlgorithms.Algorithms.QuickSort
+Array length - 100
+Sorting time, ms - 0,7274
+
+SortingAlgorithms.Algorithms.ShellSort
+Array length - 100
+Sorting time, ms - 0,52
+
+SortingAlgorithms.Algorithms.RadixSort
+Array length - 100
+Sorting time, ms - 1,0985
+
+SortingAlgorithms.Algorithms.InsertionSort
+Array length - 500
+Sorting time, ms - 0,5679
+
+SortingAlgorithms.Algorithms.SelectionSort
+Array length - 500
+Sorting time, ms - 0,6055
+
+SortingAlgorithms.Algorithms.MergeSort
+Array length - 500
+Sorting time, ms - 1,566
+
+SortingAlgorithms.Algorithms.QuickSort
+Array length - 500
+Sorting time, ms - 0,0774
+
+SortingAlgorithms.Algorithms.ShellSort
+Array length - 500
+Sorting time, ms - 0,1663
+
+SortingAlgorithms.Algorithms.RadixSort
+Array length - 500
+Sorting time, ms - 0,777
+
+SortingAlgorithms.Algorithms.InsertionSort
+Array length - 1000
+Sorting time, ms - 1,2931
+
+SortingAlgorithms.Algorithms.SelectionSort
+Array length - 1000
+Sorting time, ms - 2,2827
+
+SortingAlgorithms.Algorithms.MergeSort
+Array length - 1000
+Sorting time, ms - 1,4637
+
+SortingAlgorithms.Algorithms.QuickSort
+Array length - 1000
+Sorting time, ms - 0,1488
+
+SortingAlgorithms.Algorithms.ShellSort
+Array length - 1000
+Sorting time, ms - 0,2476
+
+SortingAlgorithms.Algorithms.RadixSort
+Array length - 1000
+Sorting time, ms - 1,4518
+
+SortingAlgorithms.Algorithms.InsertionSort
+Array length - 5000
+Sorting time, ms - 52,092
+
+SortingAlgorithms.Algorithms.SelectionSort
+Array length - 5000
+Sorting time, ms - 49,8627
+
+SortingAlgorithms.Algorithms.MergeSort
+Array length - 5000
+Sorting time, ms - 6,4226
+
+SortingAlgorithms.Algorithms.QuickSort
+Array length - 5000
+Sorting time, ms - 0,7534
+
+SortingAlgorithms.Algorithms.ShellSort
+Array length - 5000
+Sorting time, ms - 1,2525
+
+SortingAlgorithms.Algorithms.RadixSort
+Array length - 5000
+Sorting time, ms - 7,0358
+
+SortingAlgorithms.Algorithms.InsertionSort
+Array length - 10000
+Sorting time, ms - 130,6342
+
+SortingAlgorithms.Algorithms.SelectionSort
+Array length - 10000
+Sorting time, ms - 194,0407
+
+SortingAlgorithms.Algorithms.MergeSort
+Array length - 10000
+Sorting time, ms - 24,3162
+
+SortingAlgorithms.Algorithms.QuickSort
+Array length - 10000
+Sorting time, ms - 1,5916
+
+SortingAlgorithms.Algorithms.ShellSort
+Array length - 10000
+Sorting time, ms - 2,9092
+
+SortingAlgorithms.Algorithms.RadixSort
+Array length - 10000
+Sorting time, ms - 16,3947
+

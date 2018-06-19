@@ -28,6 +28,9 @@ namespace SortingAlgorithms
                     context.SetSortAlgorithm(new MergeSort());
                     context.ExecuteSort(testArray);
 
+                    context.SetSortAlgorithm(new QuickSort());
+                    context.ExecuteSort(testArray);
+
                     context.SetSortAlgorithm(new ShellSort());
                     context.ExecuteSort(testArray);
 

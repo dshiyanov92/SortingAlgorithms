@@ -8,25 +8,30 @@ namespace SortingAlgorithms.Algorithms
     {
         public void Sort(int[] array)
         {
-            int first = 0;
-            int last = array.Length - 1;
-            int p = array[(last - first) / 2 + first];
+            int[] testArray = new int[array.Length];
+            Array.Copy(array, testArray, array.Length);
+
+            Quicksort(testArray,0,testArray.Length-1);
+        }
+        public void Quicksort(int[] numbers, int first, int last)
+        {
+            int p = numbers[(last - first) / 2 + first];
             int temp;
             int i = first, j = last;
             while (i <= j)
             {
-                while (array[i] < p && i <= last) ++i;
-                while (array[j] > p && j >= first) --j;
+                while (numbers[i] < p && i <= last) ++i;
+                while (numbers[j] > p && j >= first) --j;
                 if (i <= j)
                 {
-                    temp = array[i];
-                    array[i] = array[j];
-                    array[j] = temp;
+                    temp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = temp;
                     ++i; --j;
                 }
             }
-           // if (j > first) Sort(array, first, j);
-           // if (i < last) Sort(array, i, last);
+            if (j > first) Quicksort(numbers, first, j);
+            if (i < last) Quicksort(numbers, i, last);
         }
     }
 }
